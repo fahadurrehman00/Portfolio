@@ -23,7 +23,7 @@ export interface User {
 
 export interface About {
   name: string;
-  title: string;
+  title: "";
   subTitle: string;
   description: string;
   quote: string;

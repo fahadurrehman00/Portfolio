@@ -21,16 +21,16 @@ export const Hero = ({ about }: { about: About }) => {
           <div className="flex items-center justify-center flex-col h-full pb-10">
             <Transition>
               <Image
-                src={about.avatar.url}
+                src="/fahad.png"
                 width={200}
                 height={200}
-                alt={about.name}
+                alt={"Fahad"}
                 className="rounded-full size-28 object-cover"
               />
             </Transition>
             <div className="py-6 flex items-center flex-col">
               <h2 className="md:text-7xl text-4xl font-bold overflow-hidden">
-                <SlideIn>Hello! I&apos;m {about.name}</SlideIn>
+                <SlideIn>Hello! I&apos;m Fahad Ur</SlideIn>
               </h2>
               <h1 className="md:text-7xl text-3xl overflow-hidden">
                 <SlideIn>{about.title}</SlideIn>
@@ -38,9 +38,7 @@ export const Hero = ({ about }: { about: About }) => {
             </div>
             <Transition viewport={{ once: true }} className="w-full">
               <p className="opacity-70 md:text-xl py-4 w-10/12 md:w-2/3 mx-auto flex flex-wrap justify-center gap-2">
-                {about.subTitle.split(" ").map((word, index) => (
-                  <span key={index}>{word}</span>
-                ))}
+                I develop web applications, I'm React JS Developer
               </p>
             </Transition>
             <Transition viewport={{ once: true }}>

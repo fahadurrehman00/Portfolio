@@ -114,16 +114,16 @@ export const ContactUs = ({ email, social_handle, about }: ContactProps) => {
       </div>
       <footer className="flex items-center justify-between md:px-8 px-2 py-4 text-sm">
         <Transition>
-          <div>&copy; {new Date().getFullYear()} ThePortfolio</div>
+          <div>&copy; {new Date().getFullYear()} Fahad Ur Rehman</div>
         </Transition>
         <Transition>
           <p>
             developed by @
             <Link
-              href={"https://twitter.com/tehseen_type"}
+              href={"https://github.com/fahadurrehman00"}
               className="hover:underline"
             >
-              tehseen
+              fahad
             </Link>
           </p>
         </Transition>
